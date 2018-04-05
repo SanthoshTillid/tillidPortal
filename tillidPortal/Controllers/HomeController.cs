@@ -12,5 +12,29 @@ namespace tillidPortal.Controllers
         {
             return View();
         }
+        public IActionResult Cloud()
+        {
+            return View();
+        }
+        public IActionResult BusinessIntelligence()
+        {
+            return View();
+        }
+        public IActionResult MicrosoftDynamics()
+        {
+            return View();
+        }
+        public IActionResult ProductDevelopment()
+        {
+            return View();
+        }
+        public IActionResult Sharepoint()
+        {
+            return View();
+        }
+        public IActionResult UserExperience()
+        {
+            return View();
+        }
     }
 }

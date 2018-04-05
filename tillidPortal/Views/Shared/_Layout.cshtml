@@ -1,0 +1,141 @@
+﻿@model tillidPortal.Models.Contact
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <title>Tillid Software Solutions | Technology Solutions</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="~/Content/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="~/Content/images/favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/owl.theme.default.min.css" />
+    <link href="~/Content/css/bootstrap-select.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/responsive.css">
+    <script type="text/javascript" src="~/Scripts/js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/jquery.easing.min.js"></script>
+    <script src="~/Scripts/js/jQuery.scrollSpeed.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/owl.carousel.js"></script>
+    <script src="~/Scripts/js/bootstrap-select.min.js"></script>
+    <script src="~/Scripts/js/jquery.validate.min.js"></script>
+    <script src="~/Scripts/js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/main.js"></script>
+    <script src="~/Scripts/Custom/Index.js"></script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!--Header Starts Here-->
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <a class="logo" href="../Home/Index#Home"></a>
+                <div class="menu">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--Menu Starts Here-->
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#Home" class="active">Home</a></li>
+                            <li><a href="#Services">Why Tillid?</a></li>
+                            <li class="dropdown">
+                                <a href="#Products" id="menu1" class="dropdown-toggle">Services</a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                    <span class="uparrow"><img src="~/Content/images/up-arrow.png" /></span>
+                                    <li role="presentation"><a role="menuitem" href="../Home/Cloud">Cloud</a></li>
+                                    <li role="presentation"><a role="menuitem" href="../Home/Sharepoint">Sharepoint</a></li>
+                                    <li role="presentation"><a role="menuitem" href="../Home/MicrosoftDynamics">Microsoft Dynamics</a></li>
+                                    <li role="presentation"><a role="menuitem" href="../Home/ProductDevelopment">Product Development</a></li>
+                                    <li role="presentation"><a role="menuitem" href="../Home/BusinessIntelligence">BI &amp; Analytics</a></li>
+                                    <li role="presentation"><a role="menuitem" href="../Home/UserExperience">User Experience</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#Happay">Products</a></li>
+                            <li><a href="#Clients">Clients</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!--Menu Ends Here-->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header Ends Here-->
+    @RenderBody()
+    <!--Footer Ends Here-->
+    <footer id="Contact">
+        <div class="footer">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-4 col-sm-6 mtop-30">
+                        <div class="footercolumn">
+                            <h4>United States<span class="foot_border"></span></h4>
+                            <p class="comp_name">Tillid LLC</p>
+                            <p>22722, 29th Drive SE Suite 100</p>
+                            <p>Bothell, WA 98021</p>
+                            <p class="contact"><span>Phone</span> : +1.425.698.2011</p>
+                            <p class="email"><span>Email</span> : <a href="mailto:info@tillidsoft.com">info@tillidsoft.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mtop-30">
+                        <div class="footercolumn">
+                            <h4>India<span class="foot_border"></span></h4>
+                            <p class="comp_name">ODC</p>
+                            <p>Arutjothi Towers</p>
+                            <p>No: 2 &amp; 9, Sakthi Nagar</p>
+                            <p>Mt. Poonamallee Rd, Porur, Chennai</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mtop-30 pull-right">
+                        <div class="footercolumn">
+                            <h4>Contact Us<span class="foot_border"></span></h4>
+                            <form class="contactform" role="form" method="post" action="../Home/Contact" novalidate="novalidate" data-ajax="true" data-ajax-method="POST" data-ajax-success="Index.ContactUs">
+                                <fieldset class="form-group">
+                                    @Html.TextBoxFor(i=>i.Email, new { @class="form-control", @placeholder="Email", @maxlength=50 }) @Html.ValidationMessageFor(i=>i.Email)
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    <div class="col-md-5 col-xs-5 pleft-0 pright-0">
+                                        @Html.DropDownListFor(i=>i.Country, new SelectList(new List<SelectListItem>(), "Value", "Text"), "Select Country", new { @class= "selectpicker" }) @Html.ValidationMessageFor(i=>i.Country)
+                                    </div>
+                                    <div class="col-md-7 col-xs-7 pright-0">
+                                        @Html.TextBoxFor(i=>i.Phone, new { @class = "form-control", @placeholder = "Phone#", @maxlength = 14 }) @Html.ValidationMessageFor(i=>i.Phone)
+                                    </div>
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    @Html.TextAreaFor(i=>i.Message, new { @class="form-control", @placeholder = "Message", @cols=20, @rows=3, @maxlength = 200 }) @Html.ValidationMessageFor(i=>i.Message)
+                                </fieldset>
+                                <fieldset class="form-group pull-right">
+                                    <input type="submit" value="Submit">
+                                </fieldset>
+                                <a href="https://www.linkedin.com/company/2436873/" class="social-ico" target="_blank"><img width="45" src="~/Content/images/linkedin.png" /></a>
+                                <a href="https://twitter.com/tillid_softsol" class="social-ico icon-space" target="_blank"><img width="45" src="~/Content/images/twitter.png" /></a>
+                                <a href="https://www.facebook.com/tillidsoft/" class="social-ico" target="_blank"><img width="45" src="~/Content/images/facebook.png" /></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="row">
+                <span>&copy; 2018 | Tillid</span>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Ends Here-->
+</body>
+</html>
+<script>
+    var PopularCountries = '';
+    if (PopularCountries != null && PopularCountries != "") {
+        var LayCount = PopularCountries.split(',').length;
+        for (var i = 0; i < PopularCountries.split(',').length; i++) { country_arr = $.grep(country_arr, function (value) { return value != PopularCountries.split(',')[i].trim(); }); }
+        for (var i = 0; i < PopularCountries.split(',').length; i++) { country_arr.unshift(PopularCountries.split(',')[i]); }
+    }
+</script>
