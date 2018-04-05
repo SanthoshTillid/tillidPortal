@@ -1,0 +1,11 @@
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\bin\Debug\netcoreapp2.0\tillidPortal.deps.json
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\bin\Debug\netcoreapp2.0\tillidPortal.runtimeconfig.json
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\bin\Debug\netcoreapp2.0\tillidPortal.runtimeconfig.dev.json
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\bin\Debug\netcoreapp2.0\tillidPortal.dll
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\bin\Debug\netcoreapp2.0\tillidPortal.pdb
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\obj\Debug\netcoreapp2.0\tillidPortal.csprojResolveAssemblyReference.cache
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\obj\Debug\netcoreapp2.0\tillidPortal.csproj.CoreCompileInputs.cache
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\obj\Debug\netcoreapp2.0\tillidPortal.AssemblyInfoInputs.cache
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\obj\Debug\netcoreapp2.0\tillidPortal.AssemblyInfo.cs
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\obj\Debug\netcoreapp2.0\tillidPortal.dll
+C:\Users\$E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\obj\Debug\netcoreapp2.0\tillidPortal.pdb
