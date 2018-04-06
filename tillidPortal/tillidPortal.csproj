@@ -12,20 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\Custom\Index.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\bootstrap-select.min.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\bootstrap.min.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\jquery-1.12.4.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\jquery.easing.min.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\jQuery.scrollSpeed.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\jquery.unobtrusive-ajax.min.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\jquery.validate.min.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\jquery.validate.unobtrusive.min.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\main.js" />
-    <None Include="..\..\..\..\%2524E27CE4FC-E484DA57E5BC8A15\Desktop\tillidPortal\tillidPortal\wwwroot\Scripts\js\owl.carousel.js" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.1" />
