@@ -1,5 +1,5 @@
 ﻿@model tillidPortal.Models.Contact
-
+@using Microsoft.IdentityModel.Protocols
 <!DOCTYPE html>
 <html lang=en>
 <head>
@@ -51,12 +51,11 @@
                                     <li role="presentation"><a role="menuitem" href="../Home/Cloud">Cloud</a></li>
                                     <li role="presentation"><a role="menuitem" href="../Home/Sharepoint">Sharepoint</a></li>
                                     <li role="presentation"><a role="menuitem" href="../Home/MicrosoftDynamics">Microsoft Dynamics</a></li>
-                                    <li role="presentation"><a role="menuitem" href="../Home/ProductDevelopment">Product Development</a></li>
                                     <li role="presentation"><a role="menuitem" href="../Home/BusinessIntelligence">BI &amp; Analytics</a></li>
                                     <li role="presentation"><a role="menuitem" href="../Home/UserExperience">User Experience</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#Happay">Products</a></li>
+                            <li><a href="#Office365">O365</a></li>
                             <li><a href="#Clients">Clients</a></li>
                             <li><a href="#Contact">Contact</a></li>
                         </ul>
@@ -80,7 +79,7 @@
                             <p>22722, 29th Drive SE Suite 100</p>
                             <p>Bothell, WA 98021</p>
                             <p class="contact"><span>Phone</span> : +1.425.698.2011</p>
-                            <p class="email"><span>Email</span> : <a href="mailto:info@tillidsoft.com">info@tillidsoft.com</a></p>
+                            <!--<p class="email"><span>Email</span> : <a href="mailto:info@tillidsoft.com">info@tillidsoft.com</a></p>-->
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 mtop-30">
@@ -95,36 +94,18 @@
                     <div class="col-md-4 col-sm-12 mtop-30 pull-right">
                         <div class="footercolumn">
                             <h4>Contact Us<span class="foot_border"></span></h4>
-                            <form class="contactform" role="form" method="post" action="../Home/Contact" novalidate="novalidate" data-ajax="true" data-ajax-method="POST" data-ajax-success="Index.ContactUs">
-                                <fieldset class="form-group">
-                                    @Html.TextBoxFor(i=>i.Email, new { @class="form-control", @placeholder="Email", @maxlength=50 }) @Html.ValidationMessageFor(i=>i.Email)
-                                </fieldset>
-                                <fieldset class="form-group">
-                                    <div class="col-md-5 col-xs-5 pleft-0 pright-0">
-                                        @Html.DropDownListFor(i=>i.Country, new SelectList(new List<SelectListItem>(), "Value", "Text"), "Select Country", new { @class= "selectpicker" }) @Html.ValidationMessageFor(i=>i.Country)
-                                    </div>
-                                    <div class="col-md-7 col-xs-7 pright-0">
-                                        @Html.TextBoxFor(i=>i.Phone, new { @class = "form-control", @placeholder = "Phone#", @maxlength = 14 }) @Html.ValidationMessageFor(i=>i.Phone)
-                                    </div>
-                                </fieldset>
-                                <fieldset class="form-group">
-                                    @Html.TextAreaFor(i=>i.Message, new { @class="form-control", @placeholder = "Message", @cols=20, @rows=3, @maxlength = 200 }) @Html.ValidationMessageFor(i=>i.Message)
-                                </fieldset>
-                                <fieldset class="form-group pull-right">
-                                    <input type="submit" value="Submit">
-                                </fieldset>
-                                <a href="https://www.linkedin.com/company/2436873/" class="social-ico" target="_blank"><img width="45" src="~/Content/images/linkedin.png" /></a>
-                                <a href="https://twitter.com/tillid_softsol" class="social-ico icon-space" target="_blank"><img width="45" src="~/Content/images/twitter.png" /></a>
-                                <a href="https://www.facebook.com/tillidsoft/" class="social-ico" target="_blank"><img width="45" src="~/Content/images/facebook.png" /></a>
-                            </form>
+                            <p><img src="~/Content/images/tillid-map.jpg" class="img-responsive" /></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <div class="row">
-                <span>&copy; 2018 | Tillid</span>
+            <div class="copy-text">2018 | Tillid</div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/company/2436873/" class="social-ico" target="_blank"><img width="35" src="~/Content/images/linkedin.png" /></a>
+                <a href="https://twitter.com/tillid_softsol" class="social-ico icon-space" target="_blank"><img width="35" src="~/Content/images/twitter.png" /></a>
+                <a href="https://www.facebook.com/tillidsoft/" class="social-ico" target="_blank"><img width="35" src="~/Content/images/facebook.png" /></a>
             </div>
         </div>
     </footer>
