@@ -55,10 +55,15 @@
 	.dropdown { overflow: auto;  }
 	.dropdown:hover .dropdown-menu { display: none; }
 	.client-table { background-size: 90%; }
-	/*.dropdown:hover > a::after { -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); transform: rotate(-90deg);  transition: all ease 0.5s; -webkit-transition: all ease 0.5s;  }
-	.dropdown > a::after{  transition: all ease 0.5s; -webkit-transition: all ease 0.5s;  content: ''; background-image: url(../images/list-arrow-green-circle.png); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); position: absolute; right: 10px; padding: 15px; background-size: cover; }
-	.dropdown-menu { display: none; position: inherit; left: inherit !important; top: inherit;box-shadow: none; width: 100%; min-width: 100%; background: #e3e3e3; }
-	ul.dropdown-menu li a { padding-left: 30px; }*/
+	.carousel-inner .col-md-6 { margin-bottom: 15px; }
+	.copy-text, .social-icons {
+		display: block;
+		width: 100%;
+		text-align: center !important;
+		margin: 15px 0;
+	}
+	.five .mbottom-65 { margin-bottom:50px !important;}
+	.circle h3 { bottom: -30px;}
 }
 
 @media (max-width:991px) {
@@ -76,6 +81,9 @@
 	.sharepoint { background-position: top 42px center; }
 	.footer .col-md-4:last-child { float: left !important; }
 	.client-table { background-size: 80%; }
+	.bannertext { margin:0px 15px;}
+	.banner h1 { padding: 15px;}
+	.seven { padding: 80px 0px 60px 0px ; }
 }
 
 @media (min-width: 1200px) {
@@ -97,7 +105,7 @@
 @media (min-width:768px) and (max-width:1023px) {
 	.three, .four, .five { padding-top: 120px; }
 	footer { padding-top: 100px; }
-	.logo { background-position: center center; height: 100px; width: 100px; }
+	.logo { background-position: center center; height: 125px; width: 125px; }
 	.client-table { padding: 15px 15px; }
 	.aboutbox p, .products p, .four p, .five p, .seven p { font-size: 19px; }
 	.footer input, .footer select, .footer textarea { margin-bottom: 0px; }
@@ -111,12 +119,14 @@
 }
 
 @media (min-width:290px) and (max-width:1023px) {
-	.banner h1 span { font-size: 16px; font-weight: 600; }	
+	.banner h1 span { font-size: 16px; font-weight: 500; }	
 	.readmore { margin-top: 25px; }
 	.learnmore { position: relative; padding: 15px 15px 25px 15px; left: inherit; bottom: inherit; bottom: inherit; }
 	.four .learnmore { padding: 0px; }
 	.clientable li a img { max-width: 60%; }
 }
+
+
 
 @media (max-width: 1280px) {
 	.navbar-fixed-top .container { width: 100%; }
@@ -124,7 +134,6 @@
 	.boxshadow { padding: 20px 25px 25px 25px ; }
 	.seven h1 {  margin-bottom: 20px; }
 	.morelist { margin: 30px 0px 0px 0px; }
-	.seven { padding: 80px 0px 60px 0px ; }
 	.aboutbox p, .products p, .four p, .five p, .seven p { font-size: 17px; }
 	.four p { margin-bottom: 30px; }
 	.five h1 { margin-bottom: 20px; }
@@ -138,7 +147,8 @@
 	.banner { padding: 40px 0px; left: 20%; }
 	.banner h1 { font-size: 55px; }
 	.banner h1 span { font-size: 20px; }
-	.three, .four, .five { padding-top: 70px; }
+	.three, .four { padding-top: 70px; }
+	.five { padding-top: 60px; }
 	.clientable li a img { max-width: 70%; }
 	/* footer { padding-top: 80px; }	 */
 	.five h3 { font-size: 19px; }
@@ -150,7 +160,6 @@
 	.boximg-header h3 { font-size: 15px; }
 	.services img { height: 90px; }
 	.middlelayer, .bottomlayer { padding: 35px 0px; }
-	.five h1 { margin-bottom: 20px; }	
 	.seven h1 { margin-bottom: 30px; }
 	.morelist { margin: 40px 0px 0px 0px; }
 	.boxshadow img { height: 60px; }
@@ -158,12 +167,14 @@
 	.footercolumn p.comp_name { font-size: 20px; }
 	.footer p { font-size: 15px; }
 	.center-content { padding: 50px 0px; }
-	.circle { width: 220px; height: 220px; background-size: 45%; background-position: top 35px center; }
-	.cloud { background-size: 50%; }
 	.circlecontent { padding-bottom: 35px; }
 	.ms_dynamics .circlecontent, .prod_devpt .circlecontent, .business_int .circlecontent, .user_exper .circlecontent { padding-bottom: 20px; }
-	.cloud { background-position: top 42px center; }
-	.sharepoint { background-position: top 42px center; }
+	.circle { width: 170px; height: 170px;}
+	.five .mbottom-65 { margin-bottom: 45px !important; }
+	.five .mtop-65 { margin-top: 25px !important; }
+	.circle h3 { bottom: -35px;}
+	.logo { width: 110px; height: 110px;}
+	.top-nav-collapse .logo { background-position: center center; }
 }
 
 @media (max-width: 1024px) {
@@ -171,13 +182,29 @@
 	.boxshadow { margin: 0 0px; padding: 20px 25px 25px 25px ; }
 	.seven h1 {  margin-bottom: 20px; }
 	.morelist { margin: 30px 0px 0px 0px; }
-	.seven { padding: 80px 0px 60px 0px ; }
+	
 	.aboutbox p, .products p, .four p, .five p, .seven p { font-size: 17px; }
 	.four p { margin-bottom: 30px; }
 	.five h1 { margin-bottom: 20px; }
 	.footercolumn h4 { font-size: 20px; }
 	.footercolumn p.comp_name { font-size: 20px; }
 	.tablecell { display: inline-block; }
+	.seven { height: auto;}
+}
+
+@media (min-width:1025px) and (max-width:1152px) {
+	.five .mbottom-65 {
+		margin-bottom: 65px !important;
+	}
+
+	.five .mtop-65 {
+		margin-top: 65px !important;
+	}
+
+	.five h1 {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
 }
 
 @media (min-width:1400px) and (max-width:1600px) {
@@ -185,7 +212,7 @@
 	.client-table { padding-left: 30px; padding-right: 30px; }
 	.banner { padding-top: 100px; padding-bottom: 100px; }
 	.boximg-header h3 { font-size: 16px; }
-	.circle { width: 290px; height: 290px; background-position: top 55px center; }
+	.five .mtop-65 { margin-top: 30px !important; }
 	.circlecontent { padding-bottom: 50px; }
 	.ms_dynamics .circlecontent, .prod_devpt .circlecontent, .user_exper .circlecontent{ padding-bottom: 35px; }
 	.client-table { background-size: 80%; }
@@ -200,11 +227,124 @@
 @media (min-width:1680px) and (max-width:1920px) {
 	.banner h1 { font-size: 75px; }
 	.banner h1 span { font-size: 30px; }
+	.seven { padding-top: 15%; padding-bottom: 15%; }
+	.five h1 { margin: 50px 0px;}
+	.four { height: 100%; } 
+	.four h1 { margin-top: 80px; }
+}
+
+
+@media (min-width:992px) and (max-width:1279px) {
+	.seven {
+		padding-top: 23%;
+	}
+	.seven h1 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}	
+	.seven p {
+		font-size: 16px;
+	}
+	.morelist {
+		margin-top: 20px;
+	}
+	.morelist li a {
+		font-size: 18px;
+	}
+}
+
+
+
+@media (min-width:1360px) and (max-width:1366px) {
+	.seven {
+		padding-top: 15%;
+	}
+	.seven h1 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}	
+	.seven p {
+		font-size: 18px;
+	}
+	.morelist {
+		margin-top: 20px;
+	}
+	.morelist li a {
+		font-size: 18px;
+	}
+}
+
+@media (min-width:1367px) and (max-width:1400px) {
+	.seven {
+		padding-top: 26%;
+	}
+	.seven h1 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}	
+	.seven p {
+		font-size: 18px;
+	}
+	.morelist {
+		margin-top: 20px;
+	}
+	.morelist li a {
+		font-size: 18px;
+	}
+}
+
+@media (min-width:1401px) and (max-width:1440px) {
+	.seven {
+		padding-top: 18%;
+	}
+	.seven h1 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}	
+	.seven p {
+		font-size: 18px;
+	}
+	.morelist {
+		margin-top: 20px;
+	}
+	.morelist li a {
+		font-size: 18px;
+	}
+}
+
+@media (min-width:1441px) and (max-width:1600px) {
+	.seven {
+		padding-top: 17%;
+	}
+	.seven h1 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}	
+	.seven p {
+		font-size: 18px;
+	}
+	.morelist {
+		margin-top: 20px;
+	}
+	.morelist li a {
+		font-size: 18px;
+	}
+}
+
+@media (min-width:1601px) and (max-width:1680px) {
+	.seven { padding-top: 17%; padding-bottom: 16%; }
+
 }
 
 @media (min-width:290px) and (max-width:991px) {
 	.banner { padding-top: 50px; }
 	.whitebg { padding-bottom: 0px; }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+	.five { height: auto;}
+	.five .mtop-65 { margin-top:0px !important;}
+	.five .mbottom-65 { margin-top:25px !important;}
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -254,33 +394,48 @@
 @media (min-width:2050px) and (max-width:2560px) {
     .container { width:  1700px; }
     h1 { font-size: 43px; }	
-    .logo { width: 375px; height: 140px; }
+    /* .logo { width: 375px; height: 140px; } */
     .navbar-default .navbar-nav>li>a { padding: 60px 0px; }	
-    .navbar-default .navbar-nav>li a { font-size: 25px; }
+    .navbar-default .navbar-nav>li a { font-size: 18px; }
     .bootstrap-select.btn-group .dropdown-menu li a { font-size:23px; }
     .dropdown-menu { min-width: 380px; top: 96%; }
     .dropdown-menu li a { padding: 20px 20px; }
-    .top-nav-collapse .navbar-default .navbar-nav>li>a { padding: 36px 0px; }
-    .navbar-default .navbar-nav>li:hover::before, .navbar-default .navbar-nav>li.active::before { height: 8px; }
-    .top-nav-collapse { height: 90px; } 
-    .top-nav-collapse .logo { background-position: center center; height: 90px; }
+    .top-nav-collapse .navbar-default .navbar-nav>li>a { padding: 28px 0px; }
+    .navbar-default .navbar-nav>li:hover::before, .navbar-default .navbar-nav>li.active::before { height: 6px; }
+    .top-nav-collapse { height: 75px; } 
+    .top-nav-collapse .logo { background-position: center center; height: 75px; }
     .banner h1 { font-size: 75px; }
     .banner h1 span { font-size: 35px; }
-    .four h1 + span { font-size: 30px; }
+	.four h1 + span { font-size: 30px; margin-bottom: 70px; }
+	.four { height: 100%;}
+	.four h1 { margin-top: 70px;}
+	.four p { margin-bottom: 75px;}
     .four h3 { font-size: 26px;}
-    .circle { width: 400px; height: 400px; }
-    .five h3 { font-size: 33px; }
-    .seven h1 { font-size:35px; }
+    .circle { width: 300px; height: 300px; }
+	.five h3 { font-size: 33px; }
+	.seven { padding-top: 17%; } 
+	.seven h1 { font-size:35px; }
+	.five h1 { margin-top: 40px; margin-bottom: 70px; }
     .about p, .four p, .seven p, .aboutbox p { font-size: 25px; }
     .morelist li a { font-size: 30px; }
-    .footercolumn h4 { font-size: 40px; }
-    .footercolumn p.comp_name { font-size: 30px; }
-    .footer p { font-size: 25px; }
+    .footercolumn h4 { font-size: 30px; }
+    .footercolumn p.comp_name { font-size: 25px; font-weight: 500; }
+	.footer p { font-size: 20px; font-weight: 100; }
+	.footer p span { font-weight: 100; }
     .footer input, .footer select, .bootstrap-select .btn-default { height: 70px; }
     .footer input, .footer select, .footer textarea, .bootstrap-select .btn-default { font-size: 23px; }
     .form-control { font-size: 20px; }
     .center-content p { line-height: 1.7; font-size: 33px; }
     .innerlist li { font-size: 22px; line-height: 2; }
     .innerlist li { padding-left: 60px; }
-    .innerlist li::before { padding: 23px; }
+    .innerlist li::before { padding: 17px; top: 7px; }
+}
+
+
+@media (max-width: 480px)
+{
+	.client-table { width:100%; border: 1px solid #CCC !important; }
+	.client-table:nth-child(2) {
+		border-top: none !important;
+	}
 }

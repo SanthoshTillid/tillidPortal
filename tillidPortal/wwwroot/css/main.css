@@ -63,6 +63,13 @@ a:hover, a:focus { text-decoration: none; }
 .mleft-40 { margin-left: 40px !important; }
 /*40 Margin*/
 
+/*40 Margin*/
+.mtop-65 { margin-top: 65px !important; }
+.mbottom-65 { margin-bottom: 65px !important; }
+.mright-65 { margin-right: 65px !important; }
+.mleft-65 { margin-left: 65px !important; }
+/*40 Margin*/
+
 /*0 Padding*/
 .nopad { padding: 0px !important; }
 .ptop-0 { padding-top: 0px !important; }
@@ -150,7 +157,7 @@ header{ position: fixed; top: 0; left: 0; right: 0; z-index: 3; height: 100px; t
 .navbar-default .navbar-nav>li>a { padding: 40px 0; color: #FFF; font-size: 15px; text-transform: uppercase; font-weight: 400; transition: all ease 0.5s; -webkit-transition: all ease 0.5s;} 
 .top-nav-collapse .navbar-default .navbar-nav>li>a { padding: 16px 0; }
 .navbar-default .navbar-nav>li>a:focus { background-color: transparent; color: #FFF; }
-.navbar-default .navbar-nav>li:hover::before, .navbar-default .navbar-nav>li.active::before { content: ''; background-color: #FFF; height: 4px; position: absolute; left: 0; right: 0; top: 1px; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.navbar-default .navbar-nav>li:hover::before, .navbar-default .navbar-nav>li.active::before { content: ''; background-color: #FFF; height: 4px; position: absolute; left: 0; right: 0; top: 0px; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
 .top-nav-collapse .navbar-default .navbar-nav>li:hover::before, .top-nav-collapse .navbar-default .navbar-nav>li.active::before { top: 1px; background-color: #FFF; }
 .navbar-default .navbar-nav>li>a:hover { color: #FFF; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
 .navbar-default .navbar-nav>li.active>a { color: #FFF !important; background-color: transparent !important; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
@@ -187,7 +194,7 @@ header{ position: fixed; top: 0; left: 0; right: 0; z-index: 3; height: 100px; t
 /*Section One Ends Here*/
 
 /*Section Two Starts Here*/
-.two { background-color: #FFF; padding-bottom: 70px; padding-top: 70px; }
+.two { background-image: url(../images/pattern.png); background-size: contain; padding-bottom: 70px; padding-top: 70px; }
 .two h1 { margin-bottom: 25px; text-transform: uppercase; }
 .two h1 span { display: inline-block; padding-bottom: 10px; position: relative; }
 .two h1 span .border{ border-bottom: 3px solid #23527c ; position: absolute; left: 25px; right: 25px; bottom: 0px; }
@@ -216,12 +223,12 @@ header{ position: fixed; top: 0; left: 0; right: 0; z-index: 3; height: 100px; t
 /*Section Three Ends Here*/
 
 /*Section Four Starts Here*/
-.four { background-color: #f3f3f3; color: #FFF; background-image: url(../images/parallax-img-2.jpg); background-size: cover; background-attachment: fixed; }
+.four { background-color: #f3f3f3; color: #FFF; background-image: url(../images/why-tillid-bg.jpg); background-size: cover; background-attachment: fixed; padding-bottom: 75px; }
 .four h1 { margin-bottom: 25px; text-transform: uppercase; }
 .four h1 span { display: inline-block; padding-bottom: 10px; position: relative; }
 .four h1 span .border{ border-bottom: 3px solid #23527c ; position: absolute; left: 25px; right: 25px; bottom: 0px; }
 .four p { color: #FFF; font-size: 27px; line-height: 1.7; margin-bottom: 45px; font-family: 'Open Sans', sans-serif; font-weight: 300; }
-.four h1 + span { display: block; text-align: center; font-size: 15px; margin-bottom: 30px; text-transform: uppercase; }
+.four h1 + span { display: block; text-align: center; font-size: 15px; margin-bottom: 50px; text-transform: uppercase; }
 .servicebox { padding: 20px 40px; }
 .servicebox h3 { margin-top: 0px; margin-bottom: 20px; font-size: 27px; }
 .servicebox p:last-child { margin-bottom: 0px; }
@@ -237,7 +244,7 @@ header{ position: fixed; top: 0; left: 0; right: 0; z-index: 3; height: 100px; t
 /*Section Four Ends Here*/
 
 /*Section Five Starts Here*/
-.five { background-color: #FFF; padding-bottom: 50px; }
+.five { background-image: url(../images/pattern.png); background-size: contain; padding-bottom: 50px; height: 100%;}
 .five h1 { margin-bottom: 30px; text-transform: uppercase; }
 .five h1 span { display: inline-block; padding-bottom: 10px; position: relative; }
 .five h1 span .border{ border-bottom: 3px solid #23527c ; position: absolute; left: 25px; right: 25px; bottom: 0px; }
@@ -245,7 +252,7 @@ header{ position: fixed; top: 0; left: 0; right: 0; z-index: 3; height: 100px; t
 .five p { color: #414042; font-size: 30px; line-height: 1.7; font-weight: 300; }
 .boxshadow { padding: 30px 30px 30px 30px; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; text-align: center; margin: 0 10px; shape-outside: circle(50%);  width: 100%; height: 200px; }
  .boxshadow:hover { background-color: #FFF; box-shadow: 1px 0px 10px rgba(0,0,0,0.3); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-.circle { background-size: 40%; background-repeat: no-repeat; background-position: top 65px center; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; padding: 20px; border-radius: 100%; width: 350px; height: 350px; border: 2px solid rgba(142,142,142,0.15); display: table; vertical-align: middle; text-align: center; margin: 0 auto; transition: all ease 0.75s; -webkit-transition: all ease 0.75s;  }
+.circle { background-size: 45%; background-repeat: no-repeat; background-position: center center; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; padding: 20px; border-radius: 100%; background-color: #02689d; width: 220px; height: 220px; border: 2px solid rgba(142,142,142,0.15); display: table; vertical-align: middle; text-align: center; margin: 0 auto; transition: all ease 0.75s; -webkit-transition: all ease 0.75s;  }
 .circle:hover { transition: all ease 0.75s; -webkit-transition: all ease 0.75s; }
 .circlecontent { display: table-cell; vertical-align: bottom; padding-bottom: 80px; text-align: center; width: 100%; }
 .circlecontent img { -ms-filter: grayscale(100%); filter: grayscale(100%); margin: auto auto; }
@@ -257,18 +264,18 @@ header{ position: fixed; top: 0; left: 0; right: 0; z-index: 3; height: 100px; t
 .prod_devpt{ background-image: url(../images/product-vector.png);}
 .business_int{ background-image: url(../images/business-inteligence-vector.png);}
 .user_exper{ background-image: url(../images/user-interface-vector.png);}
-.cloud:hover{ background-image: url(../images/cloud-vector-hover.png); border-color: #4bd3d5; color: #4bd3d5; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-a:hover .cloud h3{ color: #4bd3d5; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-.ms_dynamics:hover{ background-image: url(../images/dynamics-vector-hover.png); border-color: #002050; color: #002050; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-a:hover .ms_dynamics h3{ color: #002050; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-.sharepoint:hover{ background-image: url(../images/sharepoint-vector-hover.png); border-color: #0072c5; color: #0072c5; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-a:hover .sharepoint h3{ color: #0072c5; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-.prod_devpt:hover{ background-image: url(../images/product-vector-hover.png); border-color: #ce9928; color: #ce9928; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-a:hover .prod_devpt h3{ color: #ce9928; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-.business_int:hover{ background-image: url(../images/business-inteligence-vector-hover.png); border-color: #8f48c5; color: #8f48c5; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-a:hover .business_int h3{ color: #8f48c5; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-.user_exper:hover{ background-image: url(../images/user-interface-vector-hover.png); border-color: #ec591f; color: #ec591f; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
-a:hover .user_exper h3{ color: #ec591f; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.cloud:hover{ background-image: url(../images/cloud-vector-hover.png); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+a:hover .cloud h3{ color: #585858; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.ms_dynamics:hover{ background-image: url(../images/dynamics-vector-hover.png); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+a:hover .ms_dynamics h3{ color: #585858; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.sharepoint:hover{ background-image: url(../images/sharepoint-vector-hover.png); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+a:hover .sharepoint h3{ color: #585858; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.prod_devpt:hover{ background-image: url(../images/product-vector-hover.png); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+a:hover .prod_devpt h3{ color: #585858; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.business_int:hover{ background-image: url(../images/business-inteligence-vector-hover.png); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+a:hover .business_int h3{ color: #585858; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.user_exper:hover{ background-image: url(../images/user-interface-vector-hover.png); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+a:hover .user_exper h3{ color: #585858; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
 .boxshadow img { margin: 0 auto; }
 .boximgcont { position: relative; }
 .boximg-header { position: absolute; left: 0; right: 0; bottom: 0; background-color: rgba(62, 180, 66, 0.7); }
@@ -308,8 +315,8 @@ a:hover .user_exper h3{ color: #ec591f; transition: all ease 0.5s; -webkit-trans
 .client-table:hover { background-position: center center; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
 .client_microsoft { background-image:url(../images/clients/microsoft_gray.png); }
 .client_microsoft:hover { background-image:url(../images/clients/microsoft.png); } 
-.client_happay { background-image:url(../images/clients/happay_gray.png); }
-.client_happay:hover { background-image:url(../images/clients/happay.png); } 
+.client_happay { background-image:url(../images/clients/utility-one-solutions-gray.png); }
+.client_happay:hover { background-image:url(../images/clients/utility-one-solutions.png); } 
 .client_avanti { background-image:url(../images/clients/avanti_gray.png); }
 .client_avanti:hover { background-image:url(../images/clients/avanti.png); } 
 .client_macys { background-image:url(../images/clients/macys_gray.png); }
@@ -336,7 +343,7 @@ a:hover .user_exper h3{ color: #ec591f; transition: all ease 0.5s; -webkit-trans
 .seven { background-color: #23527c; /*padding: 112px 0px 60px;*/ }
 .seven {
   background-color: #FFF;
-  background-image: url('../images/parallax-img.jpg');
+  background-image: url('../images/office365-bg.jpg');
   background-size: cover;
   height:100%;
   background-attachment: fixed;
@@ -370,7 +377,7 @@ a:hover .user_exper h3{ color: #ec591f; transition: all ease 0.5s; -webkit-trans
 .social_icons li:last-child{  margin-right: 0px; }
 .social-ico { display: inline-block; }
 .icon-space { margin: 0 10px; }
-.copyright { background-color: #3a3a3a; padding: 15px 15px; text-align: center; color: #FFF; }
+.copyright { background-color: #3a3a3a; padding: 10px 15px; color: #FFF; }
 .copyright span { display: block; font-size: 15px; }
 .contactform input[type="submit"]{ color: #23527c; min-width: 120px; border-width: 1px; border-color: #23527c; height: 45px; font-size: 15px; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
 .contactform input[type="submit"]:hover { color: #FFF; border-color: #23527c; background-color: #23527c; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
@@ -440,3 +447,12 @@ body.pattern-bg { background-image: url(../images/pattern.png); background-size:
 .bootstrap-select ul li a:hover{ background-color: transparent; }
 .bootstrap-select .dropdown-menu { background-color: #000; border-radius: 0 0; border: 1px solid #999; }
 .bootstrap-select .dropdown-menu .divider { margin: 5px 20px; background-color: #999; }
+
+
+.copyright { display: table; width: 100%;}
+.copy-text, .social-icons { display: table-cell; vertical-align: middle; padding: 0 15px; width: 50%; }
+.copy-text { text-align: left; }
+.social-icons { text-align: right; }
+
+.circle h3 { position: absolute; left: 0px; right: 0px; bottom: -50px; }
+.circle h3 a { color: #565656; }

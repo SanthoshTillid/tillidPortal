@@ -13134,11 +13134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\$E27CE4FC-E484DA57E5BC8A15\\Desktop\\tillidPortal\\tillidPortal\\tillidPortal.csproj",
+      "projectUniqueName": "C:\\Users\\$E27CE4FC-E484DA57E5BC8A15\\Documents\\tillidPortal\\tillidPortal\\tillidPortal.csproj",
       "projectName": "tillidPortal",
-      "projectPath": "C:\\Users\\$E27CE4FC-E484DA57E5BC8A15\\Desktop\\tillidPortal\\tillidPortal\\tillidPortal.csproj",
+      "projectPath": "C:\\Users\\$E27CE4FC-E484DA57E5BC8A15\\Documents\\tillidPortal\\tillidPortal\\tillidPortal.csproj",
       "packagesPath": "C:\\Users\\$E27CE4FC-E484DA57E5BC8A15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\$E27CE4FC-E484DA57E5BC8A15\\Desktop\\tillidPortal\\tillidPortal\\obj\\",
+      "outputPath": "C:\\Users\\$E27CE4FC-E484DA57E5BC8A15\\Documents\\tillidPortal\\tillidPortal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
